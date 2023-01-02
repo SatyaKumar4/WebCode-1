@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-width:100%;
+    line-height:150%;
+    overflow-x: hidden;
+    font-family: normal;
+    font-weight: normal;
+    background-image: url(https://ninjavoltage.bn-ent.net/images/bg.jpg);
+    height: 100vh;
+}
+
+body .container{
+    align-content: center;
+    min-width: 840px;
+    overflow:hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.inputBox{
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left:auto;
+    text-align: center;
+}
+
+#mv .inputBox{
+    position: relative;
+    padding-bottom: 720px;
+}
+
+
+.input{
+    position: absolute;
+    top:20%; 
+    left: 500px;   
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border:1px solid #aaa;
+    outline: none;
+    margin-top: 5px;
+    display: block
+}
+
+.button{
+    position: absolute;
+    top:30%;
+    width: 150px;
+    height:40px;
+    left: 620px;
+    border:none;
+    outline:none;
+    background: #222;
+    color:#f5f5f5;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.button:hover{
+    background-color:#f5f5f5;
+    color:#222;
+}
+
+.outputBox{
+    position: absolute;
+    top:50%;
+    left: 40%;
+    background-color: #fff;
+    height: 720px;
+    width: 720px;
+}
+
+.oP{
+    position:absolute;
+    top:40%;
+    left:45%;
+    color: white;
+    background-color: blue;
+}
+
+.oP:hover{
+    opacity: 0.75;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(27, 0, 81);
+    color:#f5f5f5;
+}
