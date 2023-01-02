@@ -19,7 +19,7 @@ body .container{
     overflow:hidden;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-image: linear-gradient(to right top, #00ff1c, #00ffd9, #00ffff, #c4fdff, #ffffff);
 }
 
 .inputBox{
